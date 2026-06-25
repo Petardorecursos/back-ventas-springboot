@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: back-ventas # IMPORTANTE: Este nombre debe coincidir con tu repo en AWS
+  ECR_REPOSITORY: back-ventas_springboot
 
 jobs:
   build-and-push:
